@@ -17,6 +17,8 @@ gem 'jbuilder', '~> 1.2'
 
 gem "rails-backbone"
 
+gem 'thin'
+
 group :assets do
 	gem 'sass-rails', '~> 4.0.0'
 	gem 'uglifier', '>= 1.3.0'
@@ -26,6 +28,7 @@ end
 group :test, :development do
 	gem 'rspec-rails', '~> 2.0'
 	gem "factory_girl_rails", ">= 4.0.0"
+	gem 'quiet_assets'
 end
 
 group :test do

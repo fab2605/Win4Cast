@@ -17,5 +17,5 @@
 //= require backbone
 //= require backbone_rails_sync
 //= require backbone_datalink
-//= require backbone/win4_cast
+//= require backbone/win4cast
 //= require_tree .
