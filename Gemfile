@@ -7,17 +7,24 @@ gem 'rails', '4.0.0'
 gem 'mongoid', github: 'mongoid/mongoid'
 gem 'bson_ext', '~> 1.8.6'
 
+gem 'devise'
+
+gem 'figaro'
+
 gem 'therubyracer', platforms: :ruby
 
 gem 'turbolinks'
 
 gem 'jquery-rails'
+gem 'jquery-ui-sass-rails'
 
 gem 'jbuilder', '~> 1.2'
 
 gem "rails-backbone"
 
 gem 'thin'
+
+gem 'ejs'
 
 group :assets do
 	gem 'sass-rails', '~> 4.0.0'
