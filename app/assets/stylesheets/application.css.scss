@@ -1,0 +1,153 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require_tree .
+ */
+
+
+@import "jquery.ui.all";
+@import "variables.css.scss";
+
+
+// section#search-area{
+//   height:100%;
+//   width: 22.265625%;
+//   position: relative;
+//   float: left;
+//   background-color: $main-blue;
+
+//   img#logo{
+//     display: block;
+//     width: 50%;
+//     margin-top: 10px;
+//     margin-bottom: 10px;
+//     margin-left: auto;
+//     margin-right: auto;
+//   }
+
+//   h1{
+//     color: white;
+//     margin:0;
+//     font-size: 1.2em;
+//   }
+
+//   form{
+//     display:block;
+//     width:80%;    
+//     margin-top: 10px;
+//     margin-left: auto;
+//     margin-right: auto;
+//     margin-bottom: 60px;
+//   }
+
+//   select{
+//     padding:5px;
+//     width:100%;
+//     margin-top: 10px;
+//     background-color: white;
+//     border: 0px solid;
+//     border-radius:3px;
+//     color:#888;
+//     option{
+//       background-color: white;
+//       padding-top: 10px;
+//       padding-bottom: 10px;
+//       color:#000000;
+//     }
+//   }
+
+//   input[type="submit"]{
+//     border: 0px solid;
+//     border-radius:2px;
+//     display:block;
+//     cursor:pointer;
+//     background-color:$main-yellow;
+//     margin-top:20px;
+//     color: white;
+//     font-weight: bold;
+//     position: relative;
+//     padding:5px;
+//     padding-left:10px;
+//     padding-right:10px;
+//   }
+
+//   div#search-area-forecasters {
+//     margin-top: 10px;
+//     background:white;
+//     width: 100%;
+//     height: 30%;
+//     max-height: 200px;
+//     min-height: 100px;
+//   }
+
+// }
+
+// section#main{
+//   height:100%;
+//   width: 77.734375%;
+//   position: relative;
+//   float: right;
+
+//   section#header{
+//     height: 9%;
+//     width: 100%;
+//     background-color:black;
+
+//     div#top-bar-search-field
+//     {
+//       input[type="text"]{
+//         outline:0;
+//         border: none;
+//         -webkit-border-top-left-radius: 3px;
+//         -webkit-border-bottom-left-radius: 3px;
+//         -moz-border-radius-topleft: 3px;
+//         -moz-border-radius-bottomleft: 3px;
+//         border-top-left-radius: 3px;
+//         border-bottom-left-radius: 3px;
+//         height: 34px;
+//         width: 40%;
+//         border: 0px solid;
+//         margin-top: 12px;
+//         margin-bottom: 12px;
+//         margin-left: 10px;
+//         padding-left:5px;
+//       }
+
+//       input[type="submit"]
+//       {
+//         background-color: white;
+//         background-image: image-url("search_icon_black.png");
+//         background-repeat: no-repeat;
+//         background-position: center, center;
+//         -webkit-border-top-right-radius: 3px;
+//         -webkit-border-bottom-right-radius: 3px;
+//         -moz-border-radius-topright: 3px;
+//         -moz-border-radius-bottomright: 3px;
+//         border-top-right-radius: 3px;
+//         border-bottom-right-radius: 3px;
+//         border: none;
+//         height: 34px;
+//         width:34px;
+//         margin:0;
+//         margin-left: -10px;
+//         vertical-align: middle;
+//       }
+//     }
+
+    
+//   }
+
+//   section#content{
+//     height: 91%;
+//     width: 100%;
+//     background-color: black;
+//   }
+// }
